@@ -1,3 +1,5 @@
+/* Look for PATH in wallscript() */
+
 void
 loadxrdb()
 {
@@ -162,10 +164,10 @@ bool islight(const char* color){
 
 
 void wallsctipt(){
-	const char FilePathXres[] = "/home/archuser/.Xresources";
-	const char FilePathWalCache[] = "/home/archuser/.cache/wal/colors";
+	const char FilePathXres[] = "/home/user/.Xresource";
+	const char FilePathWalCache[] = "/home/user/.cache/wal/colors";
 
-    	system("wal -i /home/archuser/Wallpapers/ --saturate 0.9");
+    	system("wal -i /home/user/Wallpapers/ --saturate 0.9");
 
 	FILE* fdWalCache = fopen(FilePathWalCache, "r");
     	FILE* fdXres = fopen(FilePathXres, "w");
