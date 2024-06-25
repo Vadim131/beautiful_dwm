@@ -1,2 +1,3 @@
 # beautiful_dwm
-This is my scripts for dwm
+Hi there!
+This is my scripts & instruction for making dwm beautiful! 
